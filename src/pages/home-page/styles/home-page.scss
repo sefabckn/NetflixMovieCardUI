@@ -42,7 +42,10 @@
       letter-spacing: -0.03em;
       color: #ffffff;
     }
-
+    .show-preview-card__name-and-time {
+      display: flex;
+      justify-content: space-between;
+    }
     .show-preview-card__name {
       font-family: "Space Grotesk";
       font-style: normal;
@@ -53,6 +56,65 @@
       align-items: center;
       letter-spacing: -0.02em;
       color: #8d8d8d;
+    }
+
+    .show-preview-card__time {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 0px;
+      gap: 8px;
+      font-size: 16px;
+      font-weight: 400;
+      color: #8d8d8d;
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 400;
+      line-height: 100%;
+      letter-spacing: -0.02em;
+      color: #8d8d8d;
+    }
+
+    .hr {
+      position: absolute;
+      width: 349px;
+      height: 0px;
+      left: 32px;
+      top: 503px;
+      border: 1.5px solid #3c3c3c;
+    }
+
+    .show-preview-card__show-cover-and-info {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+
+      .show-preview-card__show-cover-container {
+        overflow: hidden;
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        left: 32px;
+        top: 535px;
+
+        border-radius: 90px;
+      }
+
+      .show-preview-card__show-info-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 8px;
+        color: #8d8d8d;
+        font-size: 16px;
+        font-weight: 400;
+        position: absolute;
+        width: 265px;
+        height: 22px;
+        left: 88px;
+        top: 542px;
+      }
     }
   }
 }
