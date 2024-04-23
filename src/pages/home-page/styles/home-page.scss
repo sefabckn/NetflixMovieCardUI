@@ -118,3 +118,62 @@
     }
   }
 }
+
+@media (max-width: 375px) {
+  .show-preview-card {
+    position: absolute;
+    width: 343px;
+    height: 537px;
+    left: 16px;
+    top: 137px;
+    background: #1a1a1a;
+    border-radius: 24px;
+  }
+  .show-preview-card__image-container {
+    height: 311px;
+    width: 100%;
+    overflow: hidden;
+  }
+  .show-preview-card__content {
+    padding: 8px;
+    margin-top: 2px;
+  }
+
+  .show-preview-card__title {
+    width: 170px;
+    height: 24px;
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #ffffff;
+  }
+  .show-preview-card__name-and-time {
+    display: flex;
+    justify-content: space-between;
+  }
+  .show-preview-card__name {
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+    color: #8d8d8d;
+  }
+  .hr {
+    /* Vector 591 */
+    position: absolute;
+    width: 311px;
+    height: 0px;
+    left: 16px;
+    top: 439px;
+    border: 1.5px solid #3c3c3c;
+  }
+}
